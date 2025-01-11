@@ -31,6 +31,14 @@ nav {
     font-weight: 700;
 }
 
+.banner-btn:hover {
+    background-color: lightseagreen;
+}
+
+nav button:hover {
+    background-color: lightseagreen;
+}
+
 nav button {
     border: 1px solid #006A50;
     border-radius: 8px;
@@ -113,13 +121,23 @@ nav button {
     color: rgba(14, 14, 14, 0.7);
 }
 
+.card-btn-blue:hover {
+    background-color: #065ff9;
+}
+
 .card-btn-blue {
     background-color: #5490F5;
     color: #FFFFFF;
     padding: 10px 20px;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
 }
+
+.card-btn-green:hover {
+    background-color: #06472a;
+}
+
 
 .card-btn-green {
     background-color: #09A15C;
@@ -127,6 +145,11 @@ nav button {
     padding: 10px 20px;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
+}
+
+.card-btn-yellow:hover {
+    background-color: #e6a202;
 }
 
 .card-btn-yellow {
@@ -135,6 +158,12 @@ nav button {
     padding: 10px 20px;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
+
+}
+
+.card-blue:hover {
+    background-color: rgba(2, 75, 200, 0.2);
 }
 
 .card-blue {
@@ -145,12 +174,20 @@ nav button {
     padding: 32px;
 }
 
+.card-green:hover {
+    background-color: rgb(158, 224, 193);
+}
+
 .card-green {
     background-color: rgba(198, 228, 214, 1);
     width: 410px;
     height: 320px;
     border-radius: 16px;
     padding: 32px;
+}
+
+.card-yellow:hover {
+    background-color: rgb(252, 223, 153);
 }
 
 .card-yellow {
@@ -231,6 +268,10 @@ nav button {
     display: block;
 }
 
+.news-btn:hover {
+    background-color: lightseagreen;
+}
+
 .news-btn {
     background-color: #006A50;
     padding: 12px 24px;
@@ -265,6 +306,10 @@ nav button {
     gap: 24px;
 }
 
+.d-card:hover {
+    background-color: #09A15C;
+}
+
 .d-card {
     width: 200px;
     height: 50px;
@@ -275,6 +320,11 @@ nav button {
     padding: 40px;
     justify-content: center;
     text-align: center;
+    cursor: pointer;
+}
+
+#green:hover {
+    background-color: #09A15C;
 }
 
 #green {
@@ -292,6 +342,15 @@ form input {
     font-size: 20px;
     height: 64px;
     text-align: center;
+    cursor: pointer;
+}
+
+form input:hover {
+    background-color: lightgray;
+}
+
+.donate-btn button:hover {
+    background-color: lightseagreen;
 }
 
 .donate-btn button {
@@ -305,5 +364,80 @@ form input {
     cursor: pointer;
     margin-top: 32px;
     margin-bottom: 100px;
+}
 
+/* newsletter section  */
+.news-letter {
+    max-width: 1280px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    justify-items: center;
+    text-align: center;
+    padding: 80px 260px;
+    padding-bottom: 100px;
+
+
+}
+
+.news-title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #0E0E0E;
+    padding-bottom: -16px;
+}
+
+.news-subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+    padding-bottom: 24px;
+
+}
+.news-last{
+    padding-top: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7)
+}
+
+label {
+    position: relative;
+    display: flex;
+
+}
+
+#email:hover {
+    background-color: lightgray;
+}
+
+.subscribe-btn:hover {
+    background-color: lightseagreen;
+}
+
+#email {
+    width: 600px;
+    height: 55px;
+    border: none;
+    color: rgba(14, 14, 14, 0.3);
+    padding-left: 40px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.subscribe-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #006A50;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 17px 34px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 22px;
 }
