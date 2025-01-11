@@ -207,6 +207,7 @@ nav button {
     margin-bottom: 100px;
     background-color: #FFFFFF;
     background-image: url(../assets/quote-bg.png);
+    background-position: left 2% top 20%;
     border-radius: 16px;
     background-repeat: no-repeat;
     padding: 48px 24px;
